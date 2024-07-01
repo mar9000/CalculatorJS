@@ -45,7 +45,7 @@
         <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />
         <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
-        <language slang="l:a4829704-6b1b-4b3f-8122-a4a2e6ac90ff:org.mar9000.mps.ecmascript" version="0" />
+        <language slang="l:a4829704-6b1b-4b3f-8122-a4a2e6ac90ff:org.mar9000.mps.ecmascript" version="14" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -108,7 +108,7 @@
     <language slang="l:c9d137c4-3259-44f8-80ff-33ab2b506ee4:jetbrains.mps.lang.util.order" version="0" />
     <language slang="l:696c1165-4a59-463b-bc5d-902caab85dd0:jetbrains.mps.make.facet" version="0" />
     <language slang="l:95f8a3e6-f994-4ca0-a65e-763c9bae2d3b:jetbrains.mps.make.script" version="0" />
-    <language slang="l:a4829704-6b1b-4b3f-8122-a4a2e6ac90ff:org.mar9000.mps.ecmascript" version="0" />
+    <language slang="l:a4829704-6b1b-4b3f-8122-a4a2e6ac90ff:org.mar9000.mps.ecmascript" version="14" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />

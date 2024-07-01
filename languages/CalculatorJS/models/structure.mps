@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="0" />
+    <use id="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff" name="org.mar9000.mps.ecmascript" version="14" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -83,7 +83,7 @@
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="5843916997827683091" />
-      <ref role="20lvS9" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+      <ref role="20lvS9" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     </node>
     <node concept="PrWs8" id="54pKSKgoIch" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -92,7 +92,7 @@
   <node concept="1TIwiD" id="54pKSKgoL20">
     <property role="TrG5h" value="InputFieldReference" />
     <property role="EcuMT" value="5843916997827694720" />
-    <ref role="1TJDcQ" to="rh3e:7rFtnRVF22p" resolve="JSExpression" />
+    <ref role="1TJDcQ" to="rh3e:7rFtnRVF22p" resolve="JSPrimaryExpression" />
     <node concept="1TJgyj" id="54pKSKgoL21" role="1TKVEi">
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
