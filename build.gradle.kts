@@ -22,14 +22,14 @@ group = "org.mar9000"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenLocal()
+    //mavenLocal()   // for development.
     mavenCentral()
     maven {
         url = uri("https://artifacts.itemis.cloud/repository/maven-mps/")
     }
-    //maven {
-    //    url = uri("https://jitpack.io")
-    //}
+    maven {
+        url = uri("https://jitpack.io")
+    }
 }
 
 val mps = configurations.create("mps")
@@ -44,8 +44,8 @@ val libsDir = file("$rootDir/libs")
 
 dependencies {
     mps("com.jetbrains:mps:$mpsVersion")
-    //mpsExt("com.github.mar9000:ecmascript4mps:mps-2022.3-SNAPSHOT")
-    mpsExt("org.mar9000:ecmascript4mps:2022.3.1")
+    mpsExt("com.github.mar9000:ecmascript4mps:mps-2022.3-SNAPSHOT")
+    //mpsExt("org.mar9000:ecmascript4mps:2022.3.1")   // For development.
 }
 
 tasks.test {
